@@ -4,17 +4,16 @@ A full-stack AI-powered FAQ assistant that uses OpenAI's GPT model to answer use
 
 ---
 
-##  Features
+## Features
 
 - Ask natural language questions
 - Get AI-generated answers via OpenAI Chat API
 - Chat-like interface with user/AI bubbles
 - Mock fallback mode for testing without OpenAI quota
-- Clean, responsive UI using Tailwind CSS
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
@@ -23,15 +22,17 @@ A full-stack AI-powered FAQ assistant that uses OpenAI's GPT model to answer use
 
 ---
 
-##  Installation
+## Installation
 
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/yourusername/ai-faq-assistant.git
 cd ai-faq-assistant
 ```
 
 ### 2. Setup the backend
+
 ```bash
 cd server
 npm install
@@ -44,6 +45,7 @@ node index.js
 ```
 
 ### 3. Setup the frontend
+
 ```bash
 cd ../client
 npm install
@@ -54,10 +56,12 @@ npm start
 
 ---
 
-##  Mock Mode
+## Mock Mode
+
 If OpenAI API fails (e.g., quota exceeded), it returns a fallback mock answer so the app still functions.
 
 ---
 
 ## 📄 License
+
 MIT — Free to use and adapt.
